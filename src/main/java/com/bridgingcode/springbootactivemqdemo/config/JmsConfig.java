@@ -7,12 +7,18 @@ import org.springframework.jms.config.DefaultJmsListenerContainerFactory;
 
 import javax.jms.ConnectionFactory;
 
+/**
+ *
+ * @author AJ Catambay of Bridging Code
+ *
+ */
 @Configuration
 @EnableJms
 public class JmsConfig {
 
     @Bean
-    public DefaultJmsListenerContainerFactory jmsListenerContainerFactory(ConnectionFactory connectionFactory) {
+    public DefaultJmsListenerContainerFactory jmsListenerContainerFactory(
+            ConnectionFactory connectionFactory) {
 
         DefaultJmsListenerContainerFactory factory
                 = new DefaultJmsListenerContainerFactory();

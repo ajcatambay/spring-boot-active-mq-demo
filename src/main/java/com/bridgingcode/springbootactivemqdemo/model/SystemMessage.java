@@ -2,6 +2,11 @@ package com.bridgingcode.springbootactivemqdemo.model;
 
 import java.io.Serializable;
 
+/**
+ *
+ * @author AJ Catambay of Bridging Code
+ *
+ */
 public class SystemMessage implements Serializable {
 
     private static final long serialVersionUID = 1L;
